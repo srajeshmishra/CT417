@@ -27,11 +27,12 @@ public class StudRegSysJUnitTest {
     public void test1() {} {
         StudRegSys srs;
         String s1 = "BSc (CS&IT)";
+        String s2 = "CT417";
         
         srs = new StudRegSys();
         
         srs.addCourse(s1, new DateTime(), new DateTime());
-        
+        srs.addSubject(s2);
         assertEquals(s1, s1);  
     }
     
