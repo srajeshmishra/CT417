@@ -24,7 +24,7 @@ public class StudRegSysJUnitTest {
     // @Test
     // public void hello() {}
     @Test
-    public void test1() {} {
+    public void test1()  {
         StudRegSys srs;
         String s1 = "BSc (CS&IT)";
         String s2 = "CT417";
@@ -33,7 +33,8 @@ public class StudRegSysJUnitTest {
         
         srs.addCourse(s1, new DateTime(), new DateTime());
         srs.addSubject(s2);
-        assertEquals(s1, s1);  
+        assertEquals(s1, s2);
+        System.out.println("This is a dummy test");
     }
     
 }
