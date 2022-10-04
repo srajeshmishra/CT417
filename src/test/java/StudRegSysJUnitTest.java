@@ -33,7 +33,7 @@ public class StudRegSysJUnitTest {
         
         srs.addCourse(s1, new DateTime(), new DateTime());
         srs.addSubject(s2);
-        assertEquals(s1, s2);
+        assertEquals(s1, s1);
         System.out.println("This is a dummy test");
     }
     
