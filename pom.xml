@@ -5,6 +5,7 @@
     <artifactId>CT417Ass1V2</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <name>SrajeshAssignment1</name>
     <repositories>
         <repository>
             <id>jitpack.io</id>
