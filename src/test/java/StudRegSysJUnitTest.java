@@ -28,9 +28,7 @@ public class StudRegSysJUnitTest {
         StudRegSys srs;
         String s1 = "BSc (CS&IT)";
         String s2 = "CT417";
-        
         srs = new StudRegSys();
-        
         srs.addCourse(s1, new DateTime(), new DateTime());
         srs.addSubject(s2);
         assertNotEquals(s1, s2);
